@@ -6,7 +6,14 @@ This model requires data which is provided upon request and HuggingFace "meta-ll
 
 Please make sure to insert the token in .py first line 
 
+import sys
+sys.path.append("./src")
+
+import price_llama_rag
+
 HUGGINGFACE_TOKEN = "TOKEN-HERE" 
+
+price_llama_rag.main()
 
 ---
 
